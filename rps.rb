@@ -1,5 +1,7 @@
+
+
 class RPS
-  ROCK = 0
+  ROCK = 0 
   PAPER = 1
   SCISSORS = 2
   CHOICES = ["rock", "paper", "scissors"]
@@ -12,7 +14,7 @@ class RPS
     end
   end
 
-  # TODO: generalize this for RPSLS
+  # this is the grossest function imho
   def calculate_winner(a, b)
     if a == b
       puts "A tie!"
